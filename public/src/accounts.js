@@ -4,6 +4,7 @@ function findAccountById(accounts, id) {
   const accountFound = accounts.find((account) => account.id === id);
   return accountFound;
 }
+
 // Using the sort() method sort array of accounts by last name
 function sortAccountsByLastName(accounts) {
   const sortedAccounts = accounts.sort((accountA, accountB) => {
@@ -15,6 +16,10 @@ function sortAccountsByLastName(accounts) {
   return sortedAccounts;
 }
 
+// Set counter variable
+// Loop through books array then loop through the borrows array within the books array
+// Check if the books borrows ID is equal to the account ID
+// If yes accumulate our counter by 1 for each id match
 function getTotalNumberOfBorrows(account, books) {
   let totalBorrows = 0;
   for (let i = 0; i < books.length; i++) {
