@@ -1,4 +1,5 @@
-# Local Library
+# Local Library ![library](https://user-images.githubusercontent.com/109120202/198891529-986be944-942f-4f1f-8a1d-4ef20e784af8.png)
+
 A project for Thinkful Engineering Flex where I created functions in JavaScript to enable various features for a library website.
 
 # Tools Used:
